@@ -1,0 +1,177 @@
+.bg-image{
+    height: 430px;
+    width: 380px;
+}
+.forma-imagen{
+  box-shadow: 0px 7px 10px  black !important;
+}
+.card-img-top{
+  height: 480px;
+}
+.icono-1{
+  height: 140px;
+  width: 140px;
+  margin-left: 60px;
+}
+.texto-menu{
+  padding-right: 230px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+}
+.texto-menu li a{
+  font-size: 28px;
+  margin-right: 40px;
+}
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('../images/wallpaper-1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.masthead2 {
+  height: 100%;
+  /* height: 100vh; */
+  min-height: 500px;
+  background-image: url('../images/wallpaper-2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.imagen1-texto1{
+  color: #FFF;
+  font-weight: bold !important;
+  font-size: 50px;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.imagen1-texto2{
+  color: rgb(240, 119, 20);
+  font-weight: bold !important;
+  font-size: 80px;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.texto-3{
+  color: rgb(240, 119, 20);
+  font-weight: bold !important;
+  font-size: 50px;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: left;
+  padding-left: 70px;
+}
+.texto-footer{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+.bg-background{
+    background-image: linear-gradient(35deg, #b46c00 15%, #ffc04b 100%);
+}
+.bg-colorfooter{
+    background-color: rgb(53, 53, 53);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #FFF !important;
+    font-weight: 500;
+}
+.iconoblanco{
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+.photo-gallery {
+    background-color:#e7e7e7;
+  }
+  .photo-gallery h2 {
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:inherit;
+  }
+  @media (max-width:767px) {
+    .photo-gallery h2 {
+      margin-bottom:25px;
+      padding-top:25px;
+      font-size:24px;
+    }
+  }
+  .photo-gallery .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto 40px;
+  }
+  
+  .photo-gallery .intro p {
+    margin-bottom:0;
+  }
+  
+  .photo-gallery .photos {
+    padding-bottom:20px;
+  }
+  
+  .photo-gallery .item {
+    padding-bottom:30px;
+  }
+  .fade-in {
+    animation: fadeIn ease 8s;
+    -webkit-animation: fadeIn ease 8s;
+    -moz-animation: fadeIn ease 8s;
+    -o-animation: fadeIn ease 8s;
+    -ms-animation: fadeIn ease 8s;
+  }
+  .fade-in2 {
+    animation: fadeIn ease 1.5s;
+    -webkit-animation: fadeIn ease 1.5s;
+    -moz-animation: fadeIn ease 1.5s;
+    -o-animation: fadeIn ease 1.5s;
+    -ms-animation: fadeIn ease 1.5s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
+  
+
+
+
+  
+
+

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="stylesheet" href="css/styles.css" class="">
+
+    <title>Practica Página Forza</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-background">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/logo_blanco.png" class="img-fluid icono-1" ></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav texto-menu  ms-auto my-2 my-lg-0">
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Descripción</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Imágenes</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Quienes Somos</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+          </div>
+        </div>
+      </nav>
+
+      <header class="masthead fade-in2">
+        <div class="container-fluid h-100">
+          <div class="row h-100 align-items-center">
+            <div class="col-md-10 text-left ms-5">
+              <h1 class="imagen1-texto1 fade-in">"LO QUE ENCARAMOS PARECE INSUPERABLE, PERO SOMOS MÁS FUERTES DE LO QUE CREEMOS." </h1>
+              <p class="imagen1-texto2 fade-in">FORZA TRAINING CLUB</p>
+            </div>
+          </div>
+        </div>
+      </header>
+
+   
+      <section class="photo-gallery ">
+          <div class="container py-5 text-center ">
+            <h1 class="texto-3">GALERÍA DE IMÁGENES</h1>
+            
+            <div class="carr py-5 text-nowrap" style="overflow-x: hidden; scroll-behavior: smooth;">
+              <button id="izq" class="btn bg-transparent" onclick="izquierda()" style="position: relative; left: -10px; top: -200px; z-index: 10; font-size: 1.5rem;">
+                <i class="fa fa-chevron-left"></i>
+              </button>
+
+                <div class="card-deck d-inline-block" style="width: 300px;">
+                  <div class="card">
+                    <img class="card-img-top forma-imagen" src="images/image-2.jpg" alt="Card image cap">
+                    <div class="card-body forma-imagen">
+                      <h1 class="card-title">Classroom</h1>
+                    </div>
+                  </div>
+                </div>
+             
+                <div class="card-deck d-inline-block" style="width: 300px;">
+                  <div class="card">
+                    <img class="card-img-top forma-imagen" src="images/gymnasthic.jpg" alt="Card image cap">
+                    <div class="card-body forma-imagen">
+                      <h1 class="card-title">Gymnastic</h1>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="card-deck d-inline-block" style="width: 300px;">
+                  <div class="card">
+                    <img class="card-img-top forma-imagen" src="images/wod.jpg" alt="Card image cap">
+                    <div class="card-body forma-imagen">
+                      <h1 class="card-title">WOD</h1>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="card-deck d-inline-block" style="width: 300px;">
+                  <div class="card">
+                    <img class="card-img-top forma-imagen" src="images/card-1.jpg" alt="Card image cap">
+                    <div class="card-body forma-imagen">
+                      <h1 class="card-title">Weightlifting</h1>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card-deck d-inline-block" style="width: 300px;">
+                  <div class="card">
+                    <img class="card-img-top forma-imagen" src="images/card-1.jpg" alt="Card image cap">
+                    <div class="card-body forma-imagen">
+                      <h1 class="card-title">Weightlifting</h1>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card-deck d-inline-block" style="width: 300px;">
+                  <div class="card">
+                    <img class="card-img-top forma-imagen" src="images/card-1.jpg" alt="Card image cap">
+                    <div class="card-body forma-imagen">
+                      <h1 class="card-title">Weightlifting</h1>
+                    </div>
+                  </div>
+                </div>
+              
+            </div>
+
+            <button id="der" onclick="derecha()">derecha</button>
+
+          </div>
+      </section>
+    
+
+
+
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-white  bg-background">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 text-white bg-colorfooter">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block texto-footer">
+        <span>Mantente conectado con nuestras redes sociales a través de:</span>
+      </div>
+      <div>
+            <a href="" class="me-4 link-secondary"><i class="fa-brands fa-instagram iconoblanco"></i></a>
+            <a href="" class="me-4 link-secondary"><i class="fa-brands fa-square-facebook iconoblanco"></i></a>
+            <a href="" class="me-4 link-secondary"><i class="fa-brands fa-whatsapp iconoblanco"></i></a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="bg-background py-4" >
+      <div class="container text-center text-md-start ">
+        <!-- Grid row -->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-4 col-xl-4  mx-auto ">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-dumbbell me-3 iconoblanco"></i>Forza Training Club</h6>
+            <p class="py-4">
+              Here you can use rows and columns to organize your footer content. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-3 mx-auto mb-4 py-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4 py-1">
+              Horario de Clases
+            </h6>
+            <p><i class="fa-regular fa-clock iconoblanco"></i> 08:30 AM - 09:45 AM </p>
+            <p><i class="fa-regular fa-clock iconoblanco"></i> 18:00 PM - 19:00 PM - 20:00 PM</p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold py-4 ">Contacto</h6>
+            <p><i class="fas fa-home me-3 iconoblanco py-"></i> Las Azucenas #505 Sindempart, Coquimbo</p>
+            <p>
+              <i class="fas fa-envelope me-3 iconoblanco"></i>
+              info@forzatraining.com
+            </p>
+            <p><i class="fas fa-phone me-3 iconoblanco"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-phone me-3 iconoblanco"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4 bg-colorfooter text-white" >
+      © 2023 Copyright: desarrollado por
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">PatricioCampos</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+    <script src="js/javascript.js"></script>
+</body>
+</html>
