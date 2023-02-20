@@ -1,153 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
-    <link rel="stylesheet" href="css/styles.css" class="">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+  <link rel="stylesheet" href="css/styles.css" class="">
 
-    <title>Practica Página Forza</title>
+  <title>Practica Página Forza</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-background">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="images/logo_blanco.png" class="img-fluid icono-1" ></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+  <nav class="navbar navbar-expand-lg navbar-light bg-background">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo_blanco.png" class="img-fluid icono-1">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <ul class="navbar-nav texto-menu">
+          <li class="nav-item px-2"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+          <li class="nav-item px-2"><a class="nav-link" href="#">Descripción</a></li>
+          <li class="nav-item px-2"><a class="nav-link" href="#">Imágenes</a></li>
+          <li class="nav-item px-2"><a class="nav-link" href="#">Quienes Somos</a></li>
+          <li class="nav-item px-2"><a class="nav-link" href="#">Contacto</a></li>
+      </div>
+    </div>
+  </nav>
+
+  <header class="masthead fade-in2">
+    <div class="container-fluid h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-md-10 text-left ms-lg-5">
+          <h1 class="imagen1-texto1 fade-in">"LO QUE ENCARAMOS PARECE INSUPERABLE, PERO SOMOS MÁS FUERTES DE LO QUE
+            CREEMOS." </h1>
+          <p class="imagen1-texto2 fade-in">FORZA TRAINING CLUB</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="masthead2 py-5">
+    <div class="container d-flex align-items-center h-100">
+      <div class="row align-items-center my-5">
+        <div class="col-lg-6 mb-2">
+          <h2>¿Qué es el Crossfit?</h2>
+          <p class="py-4">
+            CrossFit es una técnica de entrenamiento que conecta movimientos de diferentes disciplinas, tales como la halterofilia, el entrenamiento metabólico o el gimnástico. Consiste en acometer un programa de ejercicios (flexiones, tracción, etc), en un tiempo determinado y con un número definido de veces.
+          </p>
+          <div class="col-lg-12 mb-2">
+            <p>
+              El CrossFit te ayudará a desarrollar tu disciplina, así como la motivación. También mejora la concentración y consciencia mental, ya que debes focalizarte mucho en cada entrenamiento. Reduce el estrés, aumenta la autoestima y la confianza.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="photo-gallery degrade">
+    <div class="container py-5 text-center ">
+      <h1 class="texto-3">GALERÍA DE IMÁGENES</h1>
+
+      <div class="carr py-5 d-flex justify-content-center align-items-center">
+        <div class="h-100">
+          <button id="izq" class="btn bg-transparent me-2" onclick="izquierda()" style="font-size: 1.5rem;">
+            <i class="fa fa-chevron-left"></i>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav texto-menu  ms-auto my-2 my-lg-0">
-              <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Descripción</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Imágenes</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Quienes Somos</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
-          </div>
         </div>
-      </nav>
 
-      <header class="masthead fade-in2">
-        <div class="container-fluid h-100">
-          <div class="row h-100 align-items-center">
-            <div class="col-md-10 text-left ms-5">
-              <h1 class="imagen1-texto1 fade-in">"LO QUE ENCARAMOS PARECE INSUPERABLE, PERO SOMOS MÁS FUERTES DE LO QUE CREEMOS." </h1>
-              <p class="imagen1-texto2 fade-in">FORZA TRAINING CLUB</p>
-            </div>
-          </div>
-        </div>
-      </header>
+        <div class="carr-inner text-nowrap" style="overflow-x: hidden; scroll-behavior: smooth; ">
 
-   
-      <section class="photo-gallery ">
-          <div class="container py-5 text-center ">
-            <h1 class="texto-3">GALERÍA DE IMÁGENES</h1>
-            
-            <div class="carr py-5 text-nowrap" style="overflow-x: hidden; scroll-behavior: smooth;">
-              <button id="izq" class="btn bg-transparent" onclick="izquierda()" style="position: relative; left: -10px; top: -200px; z-index: 10; font-size: 1.5rem;">
-                <i class="fa fa-chevron-left"></i>
-              </button>
+          <div class="w-100">
 
-                <div class="card-deck d-inline-block" style="width: 300px;">
-                  <div class="card">
-                    <img class="card-img-top forma-imagen" src="images/image-2.jpg" alt="Card image cap">
-                    <div class="card-body forma-imagen">
-                      <h1 class="card-title">Classroom</h1>
-                    </div>
-                  </div>
-                </div>
-             
-                <div class="card-deck d-inline-block" style="width: 300px;">
-                  <div class="card">
-                    <img class="card-img-top forma-imagen" src="images/gymnasthic.jpg" alt="Card image cap">
-                    <div class="card-body forma-imagen">
-                      <h1 class="card-title">Gymnastic</h1>
-                    </div>
-                  </div>
-                </div>
-              
-                <div class="card-deck d-inline-block" style="width: 300px;">
-                  <div class="card">
-                    <img class="card-img-top forma-imagen" src="images/wod.jpg" alt="Card image cap">
-                    <div class="card-body forma-imagen">
-                      <h1 class="card-title">WOD</h1>
-                    </div>
-                  </div>
-                </div>
-              
-                <div class="card-deck d-inline-block" style="width: 300px;">
-                  <div class="card">
-                    <img class="card-img-top forma-imagen" src="images/card-1.jpg" alt="Card image cap">
-                    <div class="card-body forma-imagen">
-                      <h1 class="card-title">Weightlifting</h1>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="card-deck d-inline-block" style="width: 300px;">
-                  <div class="card">
-                    <img class="card-img-top forma-imagen" src="images/card-1.jpg" alt="Card image cap">
-                    <div class="card-body forma-imagen">
-                      <h1 class="card-title">Weightlifting</h1>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="card-deck d-inline-block" style="width: 300px;">
-                  <div class="card">
-                    <img class="card-img-top forma-imagen" src="images/card-1.jpg" alt="Card image cap">
-                    <div class="card-body forma-imagen">
-                      <h1 class="card-title">Weightlifting</h1>
-                    </div>
-                  </div>
-                </div>
-              
+            <div class="carousel-item-div card-deck d-inline-block me-2"
+              style="background-image: url(images/image-2.jpg);">
+              <div style="background-color: rgba(0,0,0,0.3);"
+                class="w-100 h-100 d-flex justify-content-center align-items-end py-3">
+                <h2 style="font-weight: bolder;" class="text-warning">CLASSROOM</h2>
+              </div>
             </div>
 
-            <button id="der" onclick="derecha()">derecha</button>
+            <div class="carousel-item-div card-deck d-inline-block me-2"
+              style="background-image: url(images/gymnasthic.jpg);">
+              <div style="background-color: rgba(0,0,0,0.3);"
+                class="w-100 h-100 d-flex justify-content-center align-items-end py-3">
+                <h2 style="font-weight: bolder;" class="text-warning">Gymnastic</h2>
+              </div>
+            </div>
 
+            <div class="carousel-item-div card-deck d-inline-block me-2" style="background-image: url(images/wod.jpg);">
+              <div style="background-color: rgba(0,0,0,0.3);"
+                class="w-100 h-100 d-flex justify-content-center align-items-end py-3">
+                <h2 style="font-weight: bolder;" class="text-warning">WOD</h2>
+              </div>
+            </div>
+
+            <div class="carousel-item-div card-deck d-inline-block me-2"
+              style="background-image: url(images/card-1.jpg);">
+              <div style="background-color: rgba(0,0,0,0.3);"
+                class="w-100 h-100 d-flex justify-content-center align-items-end py-3">
+                <h2 style="font-weight: bolder;" class="text-warning">Weightlifting</h2>
+              </div>
+            </div>
           </div>
-      </section>
-    
+          </div>
+
+          <div class="h-100">
+            <button id="der" class="btn bg-transparent ms-2" onclick="derecha()" style="font-size: 1.5rem;">
+              <i class="fa fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section class="imgblackwhite masthead3 fade-in">
+    <div class="container-fluid h-100 text-center" style="background-color: rgba(0,0,0,0.4);">
+      <div class="row justify-content-center align-items-center h-100">
+        <div class="col-12 h-100 d-flex justify-content-center align-items-center">
+          <p class="text-white text-uppercase fw-bold fs-1">
+            Fijar objetivos es el primer paso<br> para transformar lo invisible en visible
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 
-<!-- Footer -->
-<footer class="text-center text-lg-start bg-white  bg-background">
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-white  bg-background">
     <!-- Section: Social media -->
     <section class="d-flex justify-content-center justify-content-lg-between p-4 text-white bg-colorfooter">
       <!-- Left -->
       <div class="me-5 d-none d-lg-block texto-footer">
-        <span>Mantente conectado con nuestras redes sociales a través de:</span>
+        <span class="d-flex justify-content-center align-items-center w-100 h-100">Mantente conectado con nuestras redes sociales a través de:</span>
       </div>
       <div>
-            <a href="" class="me-4 link-secondary"><i class="fa-brands fa-instagram iconoblanco"></i></a>
-            <a href="" class="me-4 link-secondary"><i class="fa-brands fa-square-facebook iconoblanco"></i></a>
-            <a href="" class="me-4 link-secondary"><i class="fa-brands fa-whatsapp iconoblanco"></i></a>
+        <a href="" class="me-4 link-secondary fs-1 text-white"><i class="fa-brands fa-instagram "></i></a>
+        <a href="" class="me-4 link-secondary fs-1 text-white"><i class="fa-brands fa-square-facebook "></i></a>
+        <a href="" class="me-4 link-secondary fs-1 text-white"><i class="fa-brands fa-whatsapp "></i></a>
       </div>
       <!-- Right -->
     </section>
     <!-- Section: Social media -->
-  
+
     <!-- Section: Links  -->
-    <section class="bg-background py-4" >
+    <section class="bg-background py-4">
       <div class="container text-center text-md-start ">
         <!-- Grid row -->
         <div class="row">
           <!-- Grid column -->
-          <div class="col-md-4 col-lg-4 col-xl-4  mx-auto ">
+          <div class="col-3 mx-auto mb-4 py-4">
             <!-- Content -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              <i class="fas fa-dumbbell me-3 iconoblanco"></i>Forza Training Club</h6>
-            <p class="py-4">
+            <h6 class="text-uppercase fw-bold mb-4 py-1">
+              <i class="fas fa-dumbbell me-3 iconoblanco"></i>Forza Training Club
+            </h6>
+            <p class="">
               Here you can use rows and columns to organize your footer content. Lorem ipsum
               dolor sit amet, consectetur adipisicing elit.
             </p>
           </div>
           <!-- Grid column -->
-  
+
           <!-- Grid column -->
           <div class="col-3 mx-auto mb-4 py-4">
             <!-- Links -->
@@ -158,7 +182,7 @@
             <p><i class="fa-regular fa-clock iconoblanco"></i> 18:00 PM - 19:00 PM - 20:00 PM</p>
           </div>
           <!-- Grid column -->
-  
+
           <!-- Grid column -->
           <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-md-0 mb-4">
             <!-- Links -->
@@ -177,20 +201,24 @@
       </div>
     </section>
     <!-- Section: Links  -->
-  
+
     <!-- Copyright -->
-    <div class="text-center p-4 bg-colorfooter text-white" >
+    <div class="text-center p-4 bg-colorfooter text-white">
       © 2023 Copyright: desarrollado por
       <a class="text-reset fw-bold" href="https://mdbootstrap.com/">PatricioCampos</a>
     </div>
     <!-- Copyright -->
   </footer>
   <!-- Footer -->
-  
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
-    <script src="js/javascript.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+  <script src="js/javascript.js"></script>
 </body>
+
 </html>
