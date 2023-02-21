@@ -20,10 +20,12 @@
 .texto-menu li a {
   font-size: 1.5rem;
 }
-.imgblackwhite{
+
+.imgblackwhite {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
+
 .masthead {
   height: 100vh;
   min-height: 500px;
@@ -40,6 +42,7 @@
   background-repeat: no-repeat;
 
 }
+
 .masthead3 {
   height: 60vh;
   min-height: 250px;
@@ -201,160 +204,162 @@
 }
 
 
-  
 
 
 
-  @media (max-width: 576px) {
-    .card-img-top {
-      height: 280px;
-    }
 
-    .card-deck {
-      width: 200px;
-    }
-
-    .imagen1-texto1 {
-      font-size: 1.5rem;
-    }
-    
-    .imagen1-texto2 {
-      font-size: 2rem;
-    }
+@media (max-width: 576px) {
+  .card-img-top {
+    height: 280px;
   }
 
-  @media (min-width: 576px) and (max-width: 768px) {
-    .card-img-top {
-      height: 280px;
-    }
-
-    .card-deck {
-      width: 200px;
-    }
-
-    .imagen1-texto1 {
-      font-size: 1.5rem;
-    }
-    
-    .imagen1-texto2 {
-      font-size: 2rem;
-    }
+  .card-deck {
+    width: 200px;
   }
 
-
-  @media (min-width: 768px) and (max-width: 992px) {
-    .card-img-top {
-      height: 380px;
-    }
-
-    .card-deck {
-      width: 250px;
-    }
+  .imagen1-texto1 {
+    font-size: 1.5rem;
   }
 
+  .imagen1-texto2 {
+    font-size: 2rem;
+  }
+}
 
-  @media (min-width: 992px) and (max-width: 1200px) {
-    .card-img-top {
-      height: 400px;
-    }
-
-    .card-deck {
-      width: 320px;
-    }
-
-    #navbarSupportedContent {
-      margin-left: 0;
-    }
-
-    .link-secondary > svg:hover {
-      transition: all 0.25s;
-      color: orange !important;
-    }
+@media (min-width: 576px) and (max-width: 768px) {
+  .card-img-top {
+    height: 280px;
   }
 
-
-  @media (min-width: 1200px) and (max-width: 1400px) {
-    .card-img-top {
-      height: 440px;
-    }
-
-    .card-deck {
-      width: 350px;
-    }
-
-    #navbarSupportedContent {
-      margin-left: 200px;
-    }
-
-    .link-secondary > svg:hover {
-      transition: all 0.25s;
-      color: orange !important;
-    }
+  .card-deck {
+    width: 200px;
   }
 
-
-  @media (min-width: 1400px) {
-    .card-img-top {
-      height: 480px;
-    }
-
-    .card-deck {
-      width: 350px;
-    }
-
-    #navbarSupportedContent {
-      margin-left: 200px;
-    }
-
-    .link-secondary > svg:hover {
-      transition: all 0.25s;
-      color: orange !important;
-    }
+  .imagen1-texto1 {
+    font-size: 1.5rem;
   }
 
-  .carousel-item-div {
-    border-radius: 20px;
-    width: 300px; 
-    height: 600px; 
-    background-repeat: no-repeat; 
-    background-size: 105% 105%; 
-    background-position: center; 
-    background-position: center;
+  .imagen1-texto2 {
+    font-size: 2rem;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .card-img-top {
+    height: 380px;
   }
 
-  .carousel-item-div > div {
-    border-radius: 20px;
+  .card-deck {
+    width: 250px;
+  }
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .card-img-top {
+    height: 400px;
   }
 
-  .carousel-item-div, .carousel-item-div *{
-    transition: all 1s !important;
+  .card-deck {
+    width: 320px;
   }
 
-  .carousel-item-div:hover {
-    background-size: 100% 100% !important;
+  #navbarSupportedContent {
+    margin-left: 0;
   }
 
-  .carousel-item-div:hover > div {
-    background-color: rgba(0, 0, 0, 0) !important;
+  .link-secondary>svg:hover {
+    transition: all 0.25s;
+    color: orange !important;
+  }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .card-img-top {
+    height: 440px;
   }
 
-  .carousel-item-div h2 {
-    opacity: .7;
-    text-shadow: black 2px 2px 5px;
-    text-transform: uppercase;
+  .card-deck {
+    width: 350px;
   }
 
-  .carousel-item-div:hover  h2 {
-    opacity: 1;
-    letter-spacing: 2px;
+  #navbarSupportedContent {
+    margin-left: 200px;
   }
-  .degrade{
-    background: rgba(255,255,255,1);
-background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 47%, rgba(214,207,214,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(245,245,245,1)), color-stop(100%, rgba(214,207,214,1)));
-background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 47%, rgba(214,207,214,1) 100%);
-background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 47%, rgba(214,207,214,1) 100%);
-background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 47%, rgba(214,207,214,1) 100%);
-background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(245,245,245,1) 47%, rgba(214,207,214,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d6cfd6', GradientType=0 );
+
+  .link-secondary>svg:hover {
+    transition: all 0.25s;
+    color: orange !important;
   }
+}
+
+
+@media (min-width: 1400px) {
+  .card-img-top {
+    height: 480px;
+  }
+
+  .card-deck {
+    width: 350px;
+  }
+
+  #navbarSupportedContent {
+    margin-left: 200px;
+  }
+
+  .link-secondary>svg:hover {
+    transition: all 0.25s;
+    color: orange !important;
+  }
+}
+
+.carousel-item-div {
+  border-radius: 20px;
+  width: 300px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: 105% 105%;
+  background-position: center;
+  background-position: center;
+}
+
+.carousel-item-div>div {
+  border-radius: 20px;
+}
+
+.carousel-item-div,
+.carousel-item-div * {
+  transition: all 1s !important;
+}
+
+.carousel-item-div:hover {
+  background-size: 100% 100% !important;
+}
+
+.carousel-item-div:hover>div {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.carousel-item-div h2 {
+  opacity: .7;
+  text-shadow: black 2px 2px 5px;
+  text-transform: uppercase;
+}
+
+.carousel-item-div:hover h2 {
+  opacity: 1;
+  letter-spacing: 2px;
+}
+
+.degrade {
+  background: rgba(255, 255, 255, 1);
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(245, 245, 245, 1) 47%, rgba(214, 207, 214, 1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(47%, rgba(245, 245, 245, 1)), color-stop(100%, rgba(214, 207, 214, 1)));
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(245, 245, 245, 1) 47%, rgba(214, 207, 214, 1) 100%);
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(245, 245, 245, 1) 47%, rgba(214, 207, 214, 1) 100%);
+  background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(245, 245, 245, 1) 47%, rgba(214, 207, 214, 1) 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(245, 245, 245, 1) 47%, rgba(214, 207, 214, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#d6cfd6', GradientType=0);
+}
