@@ -389,14 +389,14 @@
 }
 
 .degrade2{
-  background: rgba(173,173,173,1);
-background: -moz-linear-gradient(top, rgba(173,173,173,1) 0%, rgba(255,255,255,1) 47%, rgba(161,161,161,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(173,173,173,1)), color-stop(47%, rgba(255,255,255,1)), color-stop(100%, rgba(161,161,161,1)));
-background: -webkit-linear-gradient(top, rgba(173,173,173,1) 0%, rgba(255,255,255,1) 47%, rgba(161,161,161,1) 100%);
-background: -o-linear-gradient(top, rgba(173,173,173,1) 0%, rgba(255,255,255,1) 47%, rgba(161,161,161,1) 100%);
-background: -ms-linear-gradient(top, rgba(173,173,173,1) 0%, rgba(255,255,255,1) 47%, rgba(161,161,161,1) 100%);
-background: linear-gradient(to bottom, rgba(173,173,173,1) 0%, rgba(255,255,255,1) 47%, rgba(161,161,161,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#adadad', endColorstr='#a1a1a1', GradientType=0 );
+  background: rgba(255,255,255,1);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 70%, rgba(246,246,246,1) 84%, rgba(237,237,237,1) 93%, rgba(237,237,237,1) 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,255,255,1)), color-stop(70%, rgba(255,255,255,1)), color-stop(84%, rgba(246,246,246,1)), color-stop(93%, rgba(237,237,237,1)), color-stop(100%, rgba(237,237,237,1)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 70%, rgba(246,246,246,1) 84%, rgba(237,237,237,1) 93%, rgba(237,237,237,1) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 70%, rgba(246,246,246,1) 84%, rgba(237,237,237,1) 93%, rgba(237,237,237,1) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 70%, rgba(246,246,246,1) 84%, rgba(237,237,237,1) 93%, rgba(237,237,237,1) 100%);
+  background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 70%, rgba(246,246,246,1) 84%, rgba(237,237,237,1) 93%, rgba(237,237,237,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
 }
 
 .pricingTable{
@@ -408,17 +408,76 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#adadad', end
 .pricingTable .pricingTable-header{
   color: #fff;
   /* background: linear-gradient(to right,#00c7c0,#00b3c3); */
-  background: linear-gradient(35deg, #b46c00 15%, #ffc04b 100%);
+  background: linear-gradient(35deg, #f31d64 15%, #ff5fa9 100%);
+  text-shadow: 4px 3px 15px rgba(44,27,27,0.35);
   padding: 30px 20px 70px;
   margin: 0 0 10px;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 75%, 0 100%);
+  border-radius: 10px;
+  background-color: #FAFAFA;
+  border: solid #CCCCCC;
+  border-bottom: 3px outset #CCCCCC;
+}
+.pricingTable .pricingTable-header2{
+  color: #fff;
+  /* background: linear-gradient(to right,#00c7c0,#00b3c3); */
+  background: linear-gradient(35deg, #0045da 15%, #74bdfd 100%);
+  text-shadow: 4px 3px 15px rgba(44,27,27,0.35);
+  padding: 30px 20px 70px;
+  margin: 0 0 10px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 75%, 0 100%);
+  border-radius: 10px;
+  background-color: #FAFAFA;
+  border: solid #CCCCCC;
+  border-bottom: 3px outset #CCCCCC;
+}
+.pricingTable .pricingTable-header3{
+  color: #fff;
+  /* background: linear-gradient(to right,#00c7c0,#00b3c3); */
+  background: linear-gradient(35deg, #fdf500 15%, #feff006b 100%);
+  text-shadow: 4px 3px 15px rgba(44,27,27,0.35);
+  padding: 30px 20px 70px;
+  margin: 0 0 10px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 75%, 0 100%);
+  border-radius: 10px;
+  background-color: #FAFAFA;
+  border: solid #CCCCCC;
+  border-bottom: 3px outset #CCCCCC;
+}
+.pricingTable .pricingTable-header4{
+  color: #fff;
+  /* background: linear-gradient(to right,#00c7c0,#00b3c3); */
+  background: linear-gradient(35deg, #028f0e 15%, #6cff4b 100%);
+  text-shadow: 4px 3px 15px rgba(44,27,27,0.35);
+  padding: 30px 20px 70px;
+  margin: 0 0 10px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 75%, 0 100%);
+  border-radius: 10px;
+  background-color: #FAFAFA;
+  border: solid #CCCCCC;
+  border-bottom: 3px outset #CCCCCC;
+}
+.pricingTable .pricingTable-header5{
+  color: #fff;
+  /* background: linear-gradient(to right,#00c7c0,#00b3c3); */
+  background: linear-gradient(35deg, #b46c00 15%, #ffc04b 100%);
+  text-shadow: 4px 3px 15px rgba(44,27,27,0.35);
+  padding: 30px 20px 70px;
+  margin: 0 0 10px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 75%, 0 100%);
+  border-radius: 10px;
+  background-color: #FAFAFA;
+  border: solid #CCCCCC;
+  border-bottom: 3px outset #CCCCCC;
 }
 .pricingTable .price-value{  }
 .pricingTable .price-value .amount{
   /* font-size: 90px; */
+  text-shadow: 4px 3px 15px rgba(44,27,27,0.35);
   font-weight: 500;
+  text-align: center;
   line-height: 80px;
-  display: inline-block;
+  /* display: inline-block; */
 }
 .pricingTable .price-value .currency{
   font-size: 35px;
@@ -428,24 +487,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#adadad', end
   display: inline-block;
 }
 .pricingTable .price-value .duration{
+  text-shadow: 4px 3px 15px rgba(44,27,27,0.87);
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 0.5px;
   text-transform: uppercase;
   margin: 0 0 0 -20px;
   display: inline-block;
+  text-align: center;
 }
 .pricingTable .title{
-  color: #da8c0e;
+  color: #222120;
   font-size: 45px;
-  font-weight: 500;
+  font-weight: bold;
   letter-spacing: 0.5px;
   text-transform: uppercase;
+  text-shadow: 4px 3px 15px rgba(44,27,27,0.35);
   margin: 0 0 30px;
 }
 .pricingTable .pricing-content{
   font-family: 'Lato', sans-serif;
-  padding: 0 33px;
+  padding: 0 0px;
   margin: 0 0 30px;
   list-style: none;
 }
@@ -459,9 +521,161 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#adadad', end
   padding: 5px 15px 5px 50px;
   margin: 0 0 5px;
   position: relative;
+  border-radius: 15px;
+  background-color: #FAFAFA;
+  border-bottom: 4px outset #CCCCCC;
 }
 .pricingTable .pricing-content li:last-child{ margin-bottom: 0; }
 .pricingTable .pricing-content li:before{
+  content: "\f00c";
+  color: #fff;
+  background: linear-gradient(35deg, #f31d64 15%, #ff5fa9 100%);
+  font-family: "Font Awesome 5 Free";
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 23px;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+
+.pricingTable .pricing-content2{
+  font-family: 'Lato', sans-serif;
+  padding: 0 0px;
+  margin: 0 0 30px;
+  list-style: none;
+}
+.pricingTable .pricing-content2 li{
+  color: #555;
+  background: #efefef;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 40px;
+  text-transform: uppercase;
+  padding: 5px 15px 5px 50px;
+  margin: 0 0 5px;
+  position: relative;
+  border-radius: 15px;
+  background-color: #FAFAFA;
+  border-bottom: 4px outset #CCCCCC;
+}
+.pricingTable .pricing-content2 li:last-child{ margin-bottom: 0; }
+.pricingTable .pricing-content2 li:before{
+  content: "\f00c";
+  color: #fff;
+  background: linear-gradient(35deg, #0045da 15%, #74bdfd 100%);
+  font-family: "Font Awesome 5 Free";
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 23px;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.pricingTable .pricing-content3{
+  font-family: 'Lato', sans-serif;
+  padding: 0 0px;
+  margin: 0 0 30px;
+  list-style: none;
+}
+.pricingTable .pricing-content3 li{
+  color: #555;
+  background: #efefef;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 40px;
+  text-transform: uppercase;
+  padding: 5px 15px 5px 50px;
+  margin: 0 0 5px;
+  position: relative;
+  border-radius: 15px;
+  background-color: #FAFAFA;
+  border-bottom: 4px outset #CCCCCC;
+}
+.pricingTable .pricing-content3 li:last-child{ margin-bottom: 0; }
+.pricingTable .pricing-content3 li:before{
+  content: "\f00c";
+  color: #fff;
+  background: linear-gradient(35deg, #fdf500 15%, #feff006b 100%);
+  font-family: "Font Awesome 5 Free";
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 23px;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.pricingTable .pricing-content4{
+  font-family: 'Lato', sans-serif;
+  padding: 0 0px;
+  margin: 0 0 30px;
+  list-style: none;
+}
+.pricingTable .pricing-content4 li{
+  color: #555;
+  background: #efefef;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 40px;
+  text-transform: uppercase;
+  padding: 5px 15px 5px 50px;
+  margin: 0 0 5px;
+  position: relative;
+  border-radius: 15px;
+  background-color: #FAFAFA;
+  border-bottom: 4px outset #CCCCCC;
+}
+.pricingTable .pricing-content4 li:last-child{ margin-bottom: 0; }
+.pricingTable .pricing-content4 li:before{
+  content: "\f00c";
+  color: #fff;
+  background: linear-gradient(35deg, #028f0e 15%, #6cff4b 100%);
+  font-family: "Font Awesome 5 Free";
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 23px;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.pricingTable .pricing-content5{
+  font-family: 'Lato', sans-serif;
+  padding: 0 0px;
+  margin: 0 0 30px;
+  list-style: none;
+}
+.pricingTable .pricing-content5 li{
+  color: #555;
+  background: #efefef;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 40px;
+  text-transform: uppercase;
+  padding: 5px 15px 5px 50px;
+  margin: 0 0 5px;
+  position: relative;
+  border-radius: 15px;
+  background-color: #FAFAFA;
+  border-bottom: 4px outset #CCCCCC;
+}
+.pricingTable .pricing-content5 li:last-child{ margin-bottom: 0; }
+.pricingTable .pricing-content5 li:before{
   content: "\f00c";
   color: #fff;
   background: linear-gradient(35deg, #b46c00 15%, #ffc04b 100%);
@@ -476,6 +690,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#adadad', end
   top: 15px;
   left: 15px;
 }
+
+
 .pricingTable .pricing-content li.disable:before{ content: "\f00d"; }
 .pricingTable .pricingTable-signup a{
   color: #fff;
